@@ -10,7 +10,7 @@ public class Ciclos_Introduction {
 			
 			while (i >= 5) {
 							System.out.println("Numero: " + i);
-							int n;
+							
 							i++;
 						   }
 			
