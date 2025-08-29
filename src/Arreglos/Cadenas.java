@@ -10,11 +10,14 @@ public class Cadenas {
 		Scanner captura = new Scanner(System.in);
 		String nombre;
 		for(int i = 0; i< nombres.length; i++) {
-												System.out.println("Dame el nombre"+ i+1);
+												System.out.println("Dame el nombre"+ i);
 												nombre = captura.nextLine();
 												nombres[i]=nombre;												
 											   }
-		
+		for(int n=0; n<nombres.length;n++) {
+											System.out.println("El nombre es:" + nombres[n]);
+											
+										   }
 	}
 
 }
